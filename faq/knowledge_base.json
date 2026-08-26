@@ -1,0 +1,54 @@
+{
+    "credit_card": {
+        "late_fee_policy": "If this is the customer's first late fee, we can waive it. Otherwise, the late fee is $35.",
+        "card_declined": "Check if the card is locked in the app. If not, the fraud department may have flagged a suspicious transaction.",
+        "cash_withdrawal": "Cash withdrawals may be declined if the account has insufficient available funds or the daily withdrawal limit has been reached.",
+        "payment_due": "Customers should make at least the minimum payment by the due date to avoid a late fee and potential negative credit reporting.",
+        "lost_or_stolen_card": "Customers should immediately lock the card in the app and contact customer support to request a replacement.",
+        "credit_limit": "Credit limits are determined based on factors such as credit history, income, and existing debt. Customers can request a review for a higher limit.",
+        "foreign_transaction": "Foreign transactions may include a currency conversion fee depending on the card type and transaction.",
+        "cash_advance": "Cash advances may have additional fees and interest that begin accruing immediately."
+    },
+    "mortgages_and_loans": {
+        "loan_denied": "Loan amounts are based on credit history and debt-to-income ratio. Customers can re-apply in 90 days.",
+        "loan_payment": "Customers should make their loan payment by the due date to avoid late fees and potential negative credit reporting.",
+        "interest_rate": "Interest rates may vary based on the loan type, credit history, loan amount, and current lending conditions.",
+        "early_repayment": "Customers may repay a loan early. Any early repayment fee depends on the specific loan agreement.",
+        "missed_payment": "A missed loan payment may result in a late fee and may be reported to credit bureaus if it becomes significantly overdue.",
+        "loan_balance": "Customers can check their outstanding principal, interest, and payment schedule through the banking app or customer support.",
+        "refinancing": "Customers may be eligible to refinance an existing loan depending on their credit profile, income, and current loan terms.",
+        "loan_application": "Customers may be asked to provide identification, income information, employment details, and other financial documents during the application."
+    },
+    "credit_reporting": {
+        "credit_score": "Credit scores are influenced by factors such as payment history, credit utilization, account age, and recent credit activity.",
+        "late_payment_reporting": "Late payments may be reported to credit bureaus once they meet the reporting requirements and are sufficiently overdue.",
+        "credit_report_error": "Customers who believe information on their credit report is incorrect should contact the bank and may also dispute the information with the credit bureau.",
+        "credit_inquiry": "Applying for certain credit products may result in a hard inquiry, which can temporarily affect the customer's credit score.",
+        "credit_utilization": "Using a high percentage of available revolving credit can negatively affect a credit score. Keeping balances relatively low can help.",
+        "credit_limit_change": "A change in the credit limit may affect the customer's credit utilization ratio and therefore may influence their credit score.",
+        "account_closure": "Closing a credit account can change credit utilization and may affect the average age of accounts.",
+        "reporting_frequency": "Account balances and payment information may be reported to credit bureaus periodically rather than immediately after every transaction."
+    },
+    "debt_collection": {
+        "overdue_account": "Accounts that remain unpaid for an extended period may be transferred to a collections department.",
+        "payment_plan": "Customers experiencing financial difficulty may contact the bank to ask whether a repayment plan or other assistance is available.",
+        "collection_contact": "Customers should verify the identity of the person contacting them about a debt before sharing sensitive account information.",
+        "debt_dispute": "Customers who believe a debt is incorrect should provide the relevant details and supporting documentation so the account can be reviewed.",
+        "collection_fee": "Additional fees or collection costs may apply depending on the account terms and applicable regulations.",
+        "partial_payment": "A partial payment may reduce the outstanding balance but does not necessarily stop collection activity unless an agreement has been made.",
+        "settlement": "Some customers may be offered a settlement arrangement, subject to approval and the terms of the account.",
+        "payment_confirmation": "Customers should keep confirmation numbers or receipts for payments made toward a collection account."
+    },
+    "retail_banking": {
+        "account_balance": "Customers can check their current and available balance through the mobile app, online banking, ATM, or branch.",
+        "account_transfer": "Customers can transfer funds between eligible accounts, subject to transfer limits and applicable processing times.",
+        "atm_issue": "If an ATM does not dispense cash correctly, customers should keep the receipt and report the issue to the bank as soon as possible.",
+        "cash_deposit": "Cash deposits may be subject to verification, processing times, and applicable deposit limits.",
+        "wire_transfer": "Wire transfers require accurate recipient information and may include fees depending on the destination and transfer type.",
+        "account_fees": "Certain checking or savings accounts may have monthly maintenance, overdraft, transfer, or other service fees depending on the account terms.",
+        "overdraft": "Transactions that exceed the available account balance may be declined or may result in an overdraft fee depending on the customer's account settings.",
+        "password_or_pin": "Customers should never share their online banking password, PIN, or one-time security codes with anyone.",
+        "account_closure": "Customers who want to close an account should ensure pending transactions are completed and the remaining balance is transferred or withdrawn.",
+        "direct_deposit": "Direct deposits are generally credited according to the sending institution's processing schedule and may not appear instantly."
+    }
+}

@@ -34,7 +34,7 @@ class ComplaintClassifier:
             return "Other Problem", max_prob
 
 
-    def classify(self, raw_text, threshold=0.70):
+    def classify(self, raw_text, threshold=0.60):
         """The main pipeline function"""
 
         cleaned = self.clean_text(raw_text)
