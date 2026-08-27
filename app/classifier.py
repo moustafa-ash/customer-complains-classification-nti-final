@@ -39,7 +39,6 @@ class ComplaintClassifier:
 
         cleaned = self.clean_text(raw_text)
         
-        #wrap 'cleaned' in a list because transform expects an list of strings
         vectorized = self.vectorizer.transform([cleaned])
         
         probs = self.model.predict_proba(vectorized)[0]
