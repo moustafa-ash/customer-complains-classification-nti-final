@@ -38,7 +38,7 @@ Through extensive Exploratory Data Analysis (EDA), the team uncovered several cr
 graph TD
     A[User Input / Complaint] --> B[Streamlit UI]
     B --> C[ML Classifier: TF-IDF + LinearSVC]
-    C --> D{Confidence >= 70%?}
+    C --> D{Confidence >= 60%?}
     D -- No --> E[Human Escalation Queue]
     D -- Yes --> F[RAG Router: Extract Domain FAQ]
     F --> G[Groq API: Qwen 3.8-27b]
